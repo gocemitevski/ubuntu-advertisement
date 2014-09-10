@@ -18,7 +18,7 @@
 			<p><a href="#">More information about this project</a> can be found on Medium.</p>
 			<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 			<div class="video">
-				<audio id="soundtrack" preload="auto">
+				<audio id="soundtrack" preload="auto" autoplay>
 					<source src="how-fast-does-your-pc-boot-ubuntu-soundtrack.mp3" type="audio/mpeg">
 					<source src="how-fast-does-your-pc-boot-ubuntu-soundtrack.ogg" type="audio/ogg">
 					<!-- Fallback for non supporting browsers -->
@@ -202,11 +202,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script>
 
-				jQuery(document).ready(function() {
-					// Play soundtrack when document is ready
-					playSountrackInterval = setTimeout(playSoundtrack, 0);
-				});
-
 				jQuery('.counter-container').ready(function() {
 					// Get counter text value
 					counterVal = jQuery('#counter').text();
@@ -214,12 +209,6 @@
 					// Start counting after 2900ms
 					setTimeout(countIt, 2900);
 				});
-
-				function playSoundtrack() {
-					// Trigger soundtrack play
-					var soundtrack = jQuery('#soundtrack');
-					soundtrack.get(0).play();
-				}
 
 				function countIt() {
 					// Increment counter every 1000ms
