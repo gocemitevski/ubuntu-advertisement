@@ -7,6 +7,6 @@ Please view this presentation in the most recent stable version of Mozilla Firef
 
 If [you have an issue you'd like to report](https://github.com/gocemitevski/ubuntu-advertisement/issues), please do that here on GitHub.
 
-[More information](#) about this project can be found on Medium.
+[More information](https://medium.com/@GoceMitevski/svg-animation-blur-firefox-and-an-ubuntu-advertisement-db67763bec5a) about this project can be found on Medium.
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
