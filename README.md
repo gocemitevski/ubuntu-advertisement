@@ -1,7 +1,7 @@
 How Fast Does Your PC Boot? - Ubuntu, Revisited
 ================
 
-###The [Ubuntu Free Culture Showcase](https://wiki.ubuntu.com/UbuntuFreeCultureShowcase) [advertisement](https://vimeo.com/14989758) recreated with HTML, CSS, JavaScript and SVG by Goce Mitevski
+### The [Ubuntu Free Culture Showcase](https://wiki.ubuntu.com/UbuntuFreeCultureShowcase) [advertisement](https://vimeo.com/14989758) recreated with HTML, CSS, JavaScript and SVG by Goce Mitevski
 
 Please view this presentation in the most recent stable version of Mozilla Firefox. Other modern browsers *do not currently fully support SVG Filter Effects animations*, so you probably won't see the Ubuntu symbol moving at all.
 
